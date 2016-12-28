@@ -20,7 +20,7 @@
     * [ubuntu 固定ip](ubuntu-固定ip.md)
     * [git crlf\(win\)-lf\(unix\)](git_crlfwin-lfunix.md)
     * [解压](解压.md)
-* centos
+* [centos](centos.md)
     * [install minimize](install-minimize.md)
     * [开发用的软件搭建](开发用的软件搭建.md)
     * [issue](issue.md)
