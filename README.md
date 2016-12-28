@@ -2,7 +2,7 @@
 
 出生年月：1969年11月28日 现 47岁 ， 争取在他49岁时和他聊天。
 
-## (目录)catalogue
+## (目录) catalogue
 
 * [Introduction](README.md)
 * [ubuntu](ubuntu.md)
