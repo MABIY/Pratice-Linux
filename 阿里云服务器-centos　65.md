@@ -1,25 +1,25 @@
 # 服务器设置
 
 1. df -lh  \(文件系统磁盘使用　只有５０G,一共３00\)
-   ![](Screenshot from 2016-11-12 23-21-19.png)
+   ![](/assets/Screenshot from 2016-11-12 23-21-19.png)
 2. fdisk -l  \(查看所有磁盘\)　　  
-   ![](Screenshot from 2016-11-12 23-26-11.png)  
+   ![](/assets/Screenshot from 2016-11-12 23-26-11.png)  
    　\/dev\/sdb 未挂载使用下面开始分区，格式化设置文件系统并自动挂载
 
    **如果自动挂载的硬盘被取出应该先把自动挂载设置去掉　不然京能进入救援模式　注释配置**
 
    3.fdisk /dev/sdb \(分区\)  
-   ![](Screenshot from 2016-11-12 23-37-59.png)  
+   ![](/assets/Screenshot from 2016-11-12 23-37-59.png)  
    4.设置swap 分区  
-   ![](Screenshot from 2016-11-12 23-40-14.png)  
+   ![](/assets/Screenshot from 2016-11-12 23-40-14.png)  
        键入　w 回车保存修改  
        分区已经完成了\(还有空间没分配，我准备之后做测试使用，你可以全部分配\)  
    ５． mkfs.ext3 \/dev\/sdb1\(设置文件系统\)  
-   ![](Screenshot from 2016-11-12 23-45-14.png)  
+   ![](/assets/Screenshot from 2016-11-12 23-45-14.png)  
    6.设置swap 并挂载　（swapon swapoff）  
-   ![](Screenshot from 2016-11-12 23-49-45.png)  
+   ![](/assets/Screenshot from 2016-11-12 23-49-45.png)  
    7.挂载　\/dev\/sdb1 并设置开机启动默认挂载 \/dev\/sdb1 和　\/dev\/sdb2\(swap\)  
-   ![](Screenshot from 2016-11-12 23-55-21.png)
+   ![](/assets/Screenshot from 2016-11-12 23-55-21.png)
 
    \`\`\`  
    vi /etc/fstab                 //添加下面内容在末尾　\(如果移除硬盘要先把配置注销\)  
@@ -52,11 +52,11 @@ Now edit MySQL default configuration file /etc/my.cnf and update values of datad
 and socket variable.
 
 ```
-Change From: 
+Change From:
 datadir=/var/lib/mysql
-socket=/var/lib/mysql/mysql.sock 
+socket=/var/lib/mysql/mysql.sock
 Change To:   
-datadir=/data/mysql 
+datadir=/data/mysql
 socket=/data/mysql/mysql.sock
 :wq
 service mysqld start
@@ -74,4 +74,3 @@ service iptables start
 iptables -A PREROUTING -t nat -i eth1 -p tcp --dport 80 -j REDIRECT --to-port 8080
 
 \`\`\`
-
