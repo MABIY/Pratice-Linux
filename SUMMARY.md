@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* ubuntu
+* [ubuntu](ubuntu.md)
     * [start\_up](startup.md)
     * [First Chapter](chapter1.md)
     * [ubuntu service install software](ubuntu_service_install_software.md)
