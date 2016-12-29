@@ -10,4 +10,19 @@
 
   ```
   - 下载jdk-7u79-linux-x64.tar.gz
-  - 
+  - 加压目录后jdk7路径 -> /opt/java/jdk1.7.0_79/
+  ```shell
+  sudo vi /etc/environment 
+   
+   ++ :/opt/java/jdk1.7.0_79/bin 在PATH内
+   ++ export JAVA_HOME=/opt/java/jdk1.7.0_79
+   ++ export CLASSPATH=..:$JAVA_HOME/lib:$JAVA_HOME/jre/lib
+   
+   :wq
+   
+   source /etc/environment   "让该配置脚本在当前打开的shell 中其作用
+        
+  ```
+   结果图片:
+   
+    ![jdk7-configure-complete](/assets/Screenshot from 2016-12-29 13-30-55.png)
