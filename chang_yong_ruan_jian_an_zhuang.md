@@ -16,7 +16,7 @@
 
 # Oh My Zsh
 
-       sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+    sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
        // 选择 从bash 切换到zsh
        chsh -s `which zsh` 
