@@ -44,7 +44,14 @@ liuhua ALL=\(ALL:ALL\) ALL
 获取到的dns配置覆盖手工配配置的dns服务器，则PEERDNS参数改为no。
 ONBOOT参数修改为yes表示在系统启动时自动激活该网卡。
 IPADDR设置ip地址，NETMASK设置子网掩码，GATEWAY设置网关。
-最后使用：wq保存设置并退出。  
+最后使用：wq保存设置并退出。
+
+IPV4_FAILURE_FATAL=no
+IPADDR=192.168.3.70
+NETMASK=255.255.255.0
+GATEWAY=192.168.3.1
+DNS1=114.114.114.114
+  
 ```
 
 ```
