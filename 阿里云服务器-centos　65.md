@@ -10,17 +10,22 @@
 
    **如果自动挂载的硬盘被取出应该先把自动挂载设置去掉　不然京能进入救援模式　注释配置**
 
-   3.fdisk /dev/sdb \(分区\)  
+   3.fdisk /dev/sdb \(分区\)
+     
    ![](/assets/Screenshot from 2016-11-12 23-37-59.png)  
    4.设置swap 分区  
+   
    ![](/assets/Screenshot from 2016-11-12 23-40-14.png)  
        键入　w 回车保存修改  
        分区已经完成了\(还有空间没分配，我准备之后做测试使用，你可以全部分配\)  
    ５． mkfs.ext3 \/dev\/sdb1\(设置文件系统\)  
+   
    ![](/assets/Screenshot from 2016-11-12 23-45-14.png)  
    6.设置swap 并挂载　（swapon swapoff）  
+   
    ![](/assets/Screenshot from 2016-11-12 23-49-45.png)  
    7.挂载　\/dev\/sdb1 并设置开机启动默认挂载 \/dev\/sdb1 和　\/dev\/sdb2\(swap\)  
+   
    ![](/assets/Screenshot from 2016-11-12 23-55-21.png)
 
    \`\`\`  
