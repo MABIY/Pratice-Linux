@@ -1,8 +1,10 @@
 # 服务器设置
 
 1. df -lh  \(文件系统磁盘使用　只有５０G,一共３00\)
+
    ![](/assets/Screenshot from 2016-11-12 23-21-19.png)
 2. fdisk -l  \(查看所有磁盘\)　　  
+
    ![](/assets/Screenshot from 2016-11-12 23-26-11.png)  
    　\/dev\/sdb 未挂载使用下面开始分区，格式化设置文件系统并自动挂载
 
