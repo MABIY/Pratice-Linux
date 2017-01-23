@@ -7,3 +7,7 @@ subscription-manager config --server.proxy_hostname=172.18.13.133 --server.proxy
 ```shell
 subscription-manager register --username jyfc7879@gmail.com
 ```
+3.  add respority
+```shell
+subscription-manager attach --auto
+```
