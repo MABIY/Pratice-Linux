@@ -30,4 +30,6 @@
     * [centos 6.5 服务器软件配置](centos-65-服务器软件配置.md)
     * [lean 山丘](lean-山丘.md)
     * [firewalld.service and selinux](firewalldservice-and-selinux.md)
+* redhat
+    * [redhat7](redhat7.md)
 
