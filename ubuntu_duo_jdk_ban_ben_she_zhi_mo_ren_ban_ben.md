@@ -61,9 +61,7 @@ sudo update-alternatives --remove javac /usr/local/jdk1.7.0_60/bin/javac
                    <h2 style="text-align:center">当前版本 1.8.0_91 </h2>  
 
 5.手动切换java javac版本
+
   alternatives --config java
+  
   alternatives --config javac
-
-结果  
-
- <h2 style="text-align:center">当前版本jdk1.7.0_60</h2>
