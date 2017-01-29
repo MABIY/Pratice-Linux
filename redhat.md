@@ -11,7 +11,7 @@
 #### mandb:
 
 ```shell
-[lh@r110 ~]$ sudo mandb
+[lh@r110 ~]$ sudo mandb  # 安装用户手册    
 ```
 
 
