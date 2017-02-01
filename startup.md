@@ -42,7 +42,7 @@ LSB Version: core-9.20160110ubuntu0.2-amd64:core-9.20160110ubuntu0.2-noarch:secu
 ## <center>cool ternimal color</center>
 
 
-![](Screenshot from 2016-10-01 11-33-36.png)
+![](/assets/Screenshot from 2016-10-01 11-33-36.png)
 ####ubuntu ternima color: Text color: #10CF10 ,Bold color:#A22B2B ,Background color:#100000
 
 
