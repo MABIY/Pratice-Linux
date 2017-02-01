@@ -37,6 +37,12 @@ sudo apt-get install -y lsb-core
 lsb_release -a
 
 LSB Version: core-9.20160110ubuntu0.2-amd64:core-9.20160110ubuntu0.2-noarch:security-9.20160110ubuntu0.2-amd64:security-9.20160110ubuntu0.2-noarchDistributor ID: UbuntuDescription: Ubuntu 16.04.1 LTSRelease: 16.04Codename: xenial
-
-
 ```
+
+## <center>cool ternimal color</center>
+
+
+![](Screenshot from 2016-10-01 11-33-36.png)
+####ubuntu ternima color: Text color: #10CF10 ,Bold color:#A22B2B ,Background color:#100000
+
+
