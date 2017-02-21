@@ -62,6 +62,6 @@ sudo update-alternatives --remove javac /usr/local/jdk1.7.0_60/bin/javac
 
 5.手动切换java javac版本
 
-  alternatives --config java
+   sudo update-alternatives --config java
   
-  alternatives --config javac
+   sudo update-alternatives --config javac
