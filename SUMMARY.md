@@ -32,9 +32,6 @@
   * [firewalld.service and selinux](firewalldservice-and-selinux.md)
 * [redhat](redhat.md)
   * [redhat7](redhat7.md)
-  * 基础练习
-    * [find commond](find-commond.md)
+  * [find commond](find-commond.md)
 * [minimal\_install\_7](minimal_install.md)
-
-
 
