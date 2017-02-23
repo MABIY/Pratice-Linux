@@ -34,4 +34,5 @@
   * [redhat7](redhat7.md)
   * [find commond](find-commond.md)
 * [minimal\_install\_7](minimal_install.md)
+* [base\_knowledge](base_knowledge.md)
 
