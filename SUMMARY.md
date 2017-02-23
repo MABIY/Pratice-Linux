@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+  * [基本知识点](.md)
 * [ubuntu](ubuntu.md)
   * [start\_up](startup.md)
   * [First Chapter](chapter1.md)
