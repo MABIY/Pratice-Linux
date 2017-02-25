@@ -5,9 +5,7 @@
 * mysql configuration
 * Intellij IDEA configuration
 
-
-
-### ubuntu bash application 
+### ubuntu bash application
 
 ```shell
 /usr/share/applications
@@ -15,6 +13,19 @@
 ~/.local/share/applications
 
 如果重复安装软件没有在bash 里 现在这3个位置找 删除 重新启动 右击 到bash
+```
+
+### apt-file
+
+```shell
+sudo apt install apt-file  #搜索相关文件的包名
+使用示例:
+➜  ~ apt-file search libXext.so.6
+libxext6: /usr/lib/x86_64-linux-gnu/libXext.so.6
+libxext6: /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+libxext6-dbg: /usr/lib/debug/usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+
+sudo apt install libxext6
 ```
 
 
