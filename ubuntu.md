@@ -28,5 +28,15 @@ libxext6-dbg: /usr/lib/debug/usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
 sudo apt install libxext6
 ```
 
+### [apt-setting-proxy](https://help.ubuntu.com/community/AptGet/Howto)
+
+```shell
+export http_proxy=http://yourproxyaddress:proxyport
+```
+
+```shell
+
+```
+
 
 
