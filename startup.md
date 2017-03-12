@@ -46,3 +46,12 @@ LSB Version: core-9.20160110ubuntu0.2-amd64:core-9.20160110ubuntu0.2-noarch:secu
 ####ubuntu ternima color: Text color: #10CF10 ,Bold color:#A22B2B ,Background color:#100000
 
 
+## 双硬盘(机械,固态)
+```shell
+ vim /etc/rc.local  #exit 0 前面才行。
+ 
+ chmod zk:zk /home/zk/Downloads  # 光盘挂载改变所有者 可以直接使用chmod 777
+ 
+```
+
+
