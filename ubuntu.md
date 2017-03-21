@@ -34,9 +34,15 @@ sudo apt install libxext6
 export http_proxy=http://yourproxyaddress:proxyport
 ```
 
-```shell
+### sshpass
 
+```shelll
+sshpass -p 'password' rsync -a ccdb-wcp-portlet-1.0.0-SNAPSHOT.war wechat@11.29.163.215:/home/wechat
+
+# sshpass 传递密码给使用ssh需要的密码的命令
 ```
+
+
 
 
 
