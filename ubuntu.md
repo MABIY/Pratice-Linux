@@ -42,7 +42,11 @@ sshpass -p 'password' rsync -a ccdb-wcp-portlet-1.0.0-SNAPSHOT.war wechat@11.29.
 # sshpass 传递密码给使用ssh需要的密码的命令
 ```
 
+### 取色器\`
 
+```shell
+sudo apt-get install gpick 
+```
 
 
 
