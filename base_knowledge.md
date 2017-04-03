@@ -28,5 +28,11 @@ sh echo.sh  使用 /bin/sh 执行 (一个新的会话 子 父会话等待其结�
 source echo.sh 在当前shell 窗体中执行(一般配置文件修改在当前会话中起作用 使用source)
 ```
 
+### 系统日志查看
+
+```shell
+journalctl -u service-name.service
+```
+
 
 
