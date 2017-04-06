@@ -45,7 +45,15 @@ sshpass -p 'password' rsync -a ccdb-wcp-portlet-1.0.0-SNAPSHOT.war wechat@11.29.
 ### 取色器\`
 
 ```shell
-sudo apt-get install gpick 
+sudo apt-get install gpick
+```
+
+## Install Albert
+
+```shell
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt-get update
+sudo apt-get install albert
 ```
 
 
