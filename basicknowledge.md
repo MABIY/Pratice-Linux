@@ -21,7 +21,7 @@ commands like apt-cache will fail to provide information (since the cache is emp
 ### ubuntu 设置时区
 
 ```shell
-cp /usr/share/zoneinfo/Asia/Shanghai  /etc/localtime
+ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 
 ```
 
 
