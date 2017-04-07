@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [ubuntu](ubuntu.md)
   * [start\_up](startup.md)
+  * [basic\_knowledge](basicknowledge.md)
   * [First Chapter](chapter1.md)
   * [ubuntu service install software](ubuntu_service_install_software.md)
   * [centos7 自启动脚本](centos7_zi_qi_dong_ji_ben.md)
