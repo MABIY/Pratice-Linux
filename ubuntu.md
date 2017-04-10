@@ -48,12 +48,14 @@ sshpass -p 'password' rsync -a ccdb-wcp-portlet-1.0.0-SNAPSHOT.war wechat@11.29.
 sudo apt-get install gpick
 ```
 
-## Install Albert
+## [Install Albert ](http://www.webupd8.org/2015/11/albert-quicklauncher-ppa-packages.html)
 
 ```shell
 sudo add-apt-repository ppa:nilarimogard/webupd8
 sudo apt-get update
 sudo apt-get install albert
+
+select theme: Spotlight
 ```
 
 
