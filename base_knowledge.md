@@ -34,5 +34,11 @@ source echo.sh 在当前shell 窗体中执行(一般配置文件修改在当前�
 journalctl -u service-name.service
 ```
 
+### curl set proxy
+
+```shell
+curl --proxy http://127.0.0.1:36648 https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js -O
+```
+
 
 
