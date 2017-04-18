@@ -21,7 +21,25 @@ commands like apt-cache will fail to provide information (since the cache is emp
 ### ubuntu 设置时区
 
 ```shell
-ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 
+ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+```
+
+### [How can I remove icon of uninstalled application from application lens in Dash](https://askubuntu.com/questions/170468/how-can-i-remove-icon-of-uninstalled-application-from-application-lens-in-dash)
+
+```shell
+I had the same issue. First I uninstalled the application, then I deleted all references from the following folder:
+
+/usr/share/applications
+/usr/local/share/applications
+~/.local/share/applications
+Rebooted....
+
+If not install this MENU editor:
+
+sudo add-apt-repository ppa:caldas-lopes/ppa
+sudo apt-get update
+sudo apt-get install ezame
+and delete unwanted icons.
 ```
 
 
