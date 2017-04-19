@@ -40,5 +40,11 @@ journalctl -u service-name.service
 curl --proxy http://127.0.0.1:36648 https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js -O
 ```
 
+### 传输包通过 sshpass and rsync
+
+```shell
+sshpass -p 'password' rsync -a ccdb-wcp-portlet-1.0.0-SNAPSHOT.war wechat@11.29.163.215:/home/wechat
+```
+
 
 
