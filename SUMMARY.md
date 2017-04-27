@@ -37,4 +37,5 @@
 * [minimal\_install\_7](minimal_install.md)
 * [base\_knowledge](base_knowledge.md)
 * [linux hardware info](linux-hardware-info.md)
+* [configure\_developer\_environment](configuredeveloper-environment.md)
 
