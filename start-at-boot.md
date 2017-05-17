@@ -74,10 +74,9 @@ Then add the following content to it.
 
 [Install]
  WantedBy=multi-user.target
-
 ```
 
-Save and close the file. Make sure `/etc/rc.local `file is  exist and executable.
+Save and close the file. Make sure `/etc/rc.local`file is  exist and executable.
 
 ```shell
 sudo touch /etc/rc.local && sudo chmod +x /etc/rc.local
@@ -116,7 +115,7 @@ Output:
 
 ## Cron @reboot
 
-f the above method does not work for you, or you just want some simple commands to be executed on system boot, then you can also use the @reboot feature in cron to automatically execute command on system boot. For example, I want my  [shadowsocks client](https://www.gitbook.com/book/liuhua/ubuntu/edit#) to auto start, so I open the root user’s cron file:
+f the above method does not work for you, or you just want some simple commands to be executed on system boot, then you can also use the @reboot feature in cron to automatically execute command on system boot. For example, I want my  [shadowsocks client](https://www.gitbook.com/book/liuhua/ubuntu/edit#) to auto start, so I open the root user’s cron file:
 
 ```shell
 sudo crontab -e
@@ -151,7 +150,7 @@ lh        2790  0.0  0.0  21460  2728 pts/0    S+   10:45   0:00 grep --color=au
  out:
   tcp        0      0 0.0.0.0:1017            0.0.0.0:*               LISTEN      872/IntelliJIDEALic 
   unix  3      [ ]         STREAM     CONNECTED     18720    1/init               /run/systemd/journal/stdout
-  
+
  ~$ netstat -nplt
  (Not all processes could be identified, non-owned process info
  will not be shown, you would have to be root to see it all.)
@@ -163,8 +162,12 @@ tcp        0      0 0.0.0.0:1017            0.0.0.0:*               LISTEN      
 tcp        0      0 0.0.0.0:5355            0.0.0.0:*               LISTEN      -                   
 tcp6       0      0 :::22                   :::*                    LISTEN      -                   
 tcp6       0      0 ::1:631                 :::*                    LISTEN      -                   
-tcp6       0      0 :::5355 
+tcp6       0      0 :::5355
 ```
 
+参考文章:
 
+ [how to Enable /etc/rc.local with Systemd](https://www.linuxbabe.com/linux-server/how-to-enable-etcrc-local-with-systemd)
+
+    
 
