@@ -110,8 +110,15 @@ sudo reboot
 # linux 中挂在了该分区所以启动出现错误　修改/dev/fstabji
 # /data was on /dev/sda5 during installation
 UUID=322d64cf-1faa-4dad-b9dd-a430f58ed52e /boot           utfs    defaults        0       0
-
 ```
+
+## 参考文章：
+
+１．[grub rescue救援模式的处理](http://blog.chinaunix.net/uid-22915173-id-229241.html)
+
+２．[GRUB \(简体中文\)](https://wiki.archlinux.org/index.php/GRUB_%28%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%29)
+
+３．[Grub2](https://help.ubuntu.com/community/Grub2)/[Installing](https://help.ubuntu.com/community/Grub2/Installing?action=fullsearch&value=linkto%3A%22Grub2%2FInstalling%22&context=180)
 
 
 
