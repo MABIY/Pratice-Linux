@@ -13,13 +13,12 @@
 ### two step install window 10
 
 ```shell
-删除  格式化 logical 
+删除  格式化 logical
 ```
 
 ### three 救援模式
 
 ```shell
-
 sh-4.2# chroot /mnt/sysimage
 sh-4.2# grub2-install /dev/vda
 Installing for i386-pc platform.
