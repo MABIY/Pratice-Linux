@@ -49,7 +49,7 @@ GRUB_TIMEOUT=30  # 将 5 秒改成 30 秒长一些
 [root@study ~]# grub2-mkconfig -o /boot/grub2/grub.cfg
 ```
 
-## ubuntu 17.04 install after win10 
+## ubuntu 17.04 install after win10
 
 ### first partition install linux
 
@@ -64,7 +64,6 @@ LIVE  CD
 [anaconda root@localhost /]# parted /dev/vda print                    # 显示分割结果
 
 INSTALL SYSTEM
-
 ```
 
 ### two step install window 10
@@ -100,7 +99,17 @@ sudo update-grub
 # 重建grub到第一硬盘mbr
 sudo grub-install /dev/sda
 sudo reboot
+```
 
+---
+
+## share NTFS partition
+
+```shell
+# win10 格式化逻辑分区　重新设置文件系统为NTFS
+# linux 中挂在了该分区所以启动出现错误　修改/dev/fstabji
+# /data was on /dev/sda5 during installation
+UUID=322d64cf-1faa-4dad-b9dd-a430f58ed52e /boot           utfs    defaults        0       0
 
 ```
 
