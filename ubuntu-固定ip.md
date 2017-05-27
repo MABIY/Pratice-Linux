@@ -1,6 +1,4 @@
-
-
-step 1: 
+step 1:
 
 ```shell
 ➜  ~ sudo vim /etc/NetworkManager/NetworkManager.conf
@@ -37,7 +35,7 @@ setp 4: 配置DNS
 ```shell
 ➜  ~ sudo vim /etc/resolvconf/resolv.conf.d/base 
 
-nameserver 223.5.5.5
+nameserver 8.8.8.8
 
 ➜  ~ sudo resolvconf -u  #读取dns 配置
 ```
