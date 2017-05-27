@@ -1,15 +1,46 @@
+
+
+step 1: 
+
 ```shell
-sudo gedit /etc/network/interfaces
+➜  ~ sudo vim /etc/NetworkManager/NetworkManager.conf
+
+[main]
+plugins=ifupdown,keyfile,ofono
+dns=dnsmasq
+
+[ifupdown]
+managed=true  ＃修改
 ```
-表示使用gedit编辑器打开interfaces文件。 在打开的文件中，若有内容，先全部删除。然后输入如下代码：  
+
+step 2:
+
 ```shell
-auto loiface lo inet loopback
-auto ens33iface ens33 inet staticaddress 
-192.168.8.100netmask 255.255.255.0
-gateway 192.168.8.2
+➜  ~ sudo vim /etc/network/interfaces
+
+auto enp4s0
+iface enp4s0 inet static
+address 172.20.10.210
+gateway 172.20.10.1
+netmask 255.255.255.0
+nameserver 8.8.8.8
 ```
-然后，配置DNS服务器：
-在里面填入阿里的DNS：223.5.5.5
+
+step 3:重启 networking 服务
+
+```shell
+sudo systemctl restart networking.service
+```
+
+setp 4: 配置DNS
+
+```shell
+➜  ~ sudo vim /etc/resolvconf/resolv.conf.d/base 
+
 nameserver 223.5.5.5
 
-sudo /etc/init.d/networking restart
+➜  ~ sudo resolvconf -u  #读取dns 配置
+```
+
+
+
