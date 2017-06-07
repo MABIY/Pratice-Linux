@@ -42,5 +42,11 @@ sudo apt-get install ezame
 and delete unwanted icons.
 ```
 
+# [How to restart X Window Server from command line?](https://askubuntu.com/questions/1220/how-to-restart-x-window-server-from-command-line)
+
+```shell
+sudo systemctl restart lightdm.service
+```
+
 
 
