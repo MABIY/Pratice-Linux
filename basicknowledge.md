@@ -50,3 +50,33 @@ sudo systemctl restart lightdm.service
 
 
 
+#### To figure out which package provides a particular file, you can use`apt-file`\(install it by running`sudo apt install apt-file`\). For the case of`libQtWebKit.so.4`:
+
+```
+$ apt-file search libQtWebKit.so.4
+libqtwebkit4: /usr/lib/x86_64-linux-gnu/libQtWebKit.so.4
+libqtwebkit4: /usr/lib/x86_64-linux-gnu/libQtWebKit.so.4.10
+libqtwebkit4: /usr/lib/x86_64-linux-gnu/libQtWebKit.so.4.10.2
+
+```
+
+If you prefer to use a web browser, go to[http://packages.ubuntu.com](http://packages.ubuntu.com/), search for`libQtWebKit.so.4`in "Search the contents of packages" and you will get:
+
+```
+File                                            Packages
+/usr/lib/aarch64-linux-gnu/libQtWebKit.so.4     libqtwebkit4 [arm64]
+/usr/lib/arm-linux-gnueabihf/libQtWebKit.so.4   libqtwebkit4 [armhf]
+/usr/lib/i386-linux-gnu/libQtWebKit.so.4        libqtwebkit4 [i386]
+/usr/lib/powerpc-linux-gnu/libQtWebKit.so.4     libqtwebkit4 [powerpc]
+/usr/lib/powerpc64le-linux-gnu/libQtWebKit.so.4 libqtwebkit4 [ppc64el]
+/usr/lib/s390x-linux-gnu/libQtWebKit.so.4       libqtwebkit4 [s390x]
+/usr/lib/x86_64-linux-gnu/libQtWebKit.so.4      libqtwebkit4 [amd64]
+
+```
+
+  
+  
+
+
+
+
