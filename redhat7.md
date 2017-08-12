@@ -1,3 +1,11 @@
+
+
+#### redhat 
+
+               userName:jyfc7879
+
+
+
 #### 安装步骤
 
 1. set proxy

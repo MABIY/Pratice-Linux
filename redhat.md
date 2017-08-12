@@ -1,3 +1,10 @@
+  
+
+
+
+
+#### 
+
 #### selinux :
 
 ```shell
@@ -11,7 +18,7 @@
 #### mandb:
 
 ```shell
-[lh@r110 ~]$ sudo mandb  # 安装用户手册    
+[lh@r110 ~]$ sudo mandb  # 安装用户手册
 ```
 
 
