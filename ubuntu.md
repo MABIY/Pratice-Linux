@@ -51,10 +51,7 @@ sudo apt-get install gpick
 ## [Install Albert ](https://albertlauncher.github.io/docs/installing/)
 
 ```shell
-wget -qO - https://repo.adminlounge.org/archive.key \
-    | sudo apt-key add -
-sudo echo "deb http://repo.adminlounge.org/ jessie main" \
-    > /etc/apt/sources.list.d/adminlounge.list
+sudo add-apt-repository ppa:nilarimogard/webupd8
 sudo apt-get update
 sudo apt-get install albert
 
