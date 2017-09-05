@@ -1,14 +1,18 @@
 ### set  shortcuts
 
-######      Keyboard---&gt; Windows
+###### Keyboard---&gt; Windows
 
-     View split on left : Alt+left 
+```
+ View split on left : Alt+left 
 
-     view split on right: Alt+ Right        
+ view split on right: Alt+ Right        
 
-     HIde Window: Alt+ Down
+ HIde Window: Alt+ Down
 
-     Maximize window : Alt+ up
+ Maximize window : Alt+ up
+ 
+ ➜  ~   gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "[]" # disable Alt+F1
+```
 
 
 
