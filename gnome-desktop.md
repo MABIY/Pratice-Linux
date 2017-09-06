@@ -10,8 +10,27 @@
  HIde Window: Alt+ Down
 
  Maximize window : Alt+ up
- 
+
  ➜  ~   gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "[]" # disable Alt+F1
+```
+
+#### update gnome from 3.18 to 3.20
+
+```shell
+
+
+sudo add-apt-repository ppa:gnome3-team/gnome3-staging
+
+sudo add-apt-repository ppa:gnome3-team/gnome3
+
+
+sudo apt update
+
+
+sudo apt dist-upgrade
+
+
+sudo apt install gnome gnome-shell
 ```
 
 
