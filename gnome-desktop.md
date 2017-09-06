@@ -17,8 +17,6 @@
 #### update gnome from 3.18 to 3.20
 
 ```shell
-
-
 sudo add-apt-repository ppa:gnome3-team/gnome3-staging
 
 sudo add-apt-repository ppa:gnome3-team/gnome3
@@ -32,6 +30,8 @@ sudo apt dist-upgrade
 
 sudo apt install gnome gnome-shell
 ```
+
+#### 效果图片
 
 
 
