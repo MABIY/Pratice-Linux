@@ -58,7 +58,7 @@ sudo apt-get install albert
 select theme: Spotlight
 ```
 
-#### Green-recorder
+#### [Green-recorder](https://github.com/foss-project/green-recorder)
 
 ```shell
 sudo add-apt-repository ppa:fossproject/ppa
