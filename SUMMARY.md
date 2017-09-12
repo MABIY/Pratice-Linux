@@ -43,4 +43,5 @@
 * [linux hardware info](linux-hardware-info.md)
 * [configure\_developer\_environment](configuredeveloper-environment.md)
 * [双系统\_share partition](shuang-xi-tong-share-partition.md)
+* [grub2](grub2.md)
 
