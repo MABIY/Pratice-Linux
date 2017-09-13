@@ -33,7 +33,9 @@ sudo apt dist-upgrade
 sudo apt install gnome gnome-shell
 ```
 
+#### Tweaks Extensions :
 
+ 1. [Hide top bar ](https://extensions.gnome.org/extension/545/hide-top-bar/)
 
 #### 效果图片
 
