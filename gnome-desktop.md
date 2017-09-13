@@ -31,9 +31,17 @@ sudo apt dist-upgrade
 sudo apt install gnome gnome-shell
 ```
 
+
+
+#### trash shorcuts set :
+
+keyboard:
+
+```shell
+nautilus trash:/// 
+```
+
 #### 效果图片
 
 ![](/assets/ubuntu_gnome.png)
-
-
 
