@@ -12,8 +12,8 @@
  Maximize window : Alt+ up
 
  ➜  ~   gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "[]" # disable Alt+F1
- 
- keyboard : nautilus trash:///
+
+ keyboard (trash shorcuts set ) : nautilus trash:///
 ```
 
 #### update gnome from 3.18 to 3.20
@@ -33,13 +33,7 @@ sudo apt dist-upgrade
 sudo apt install gnome gnome-shell
 ```
 
-#### trash shorcuts set :
 
-keyboard:
-
-```shell
-nautilus trash:///
-```
 
 #### 效果图片
 
