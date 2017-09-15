@@ -44,4 +44,5 @@
 * [configure\_developer\_environment](configuredeveloper-environment.md)
 * [双系统\_share partition](shuang-xi-tong-share-partition.md)
 * [grub2](grub2.md)
+* [标准输入输出](biao-zhun-shu-chu.md)
 
