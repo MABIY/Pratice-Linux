@@ -41,10 +41,8 @@ sudo apt install gnome gnome-shell
 #### 字体设置
 
 ```shell
-sudo apt install ttf-wqy-microhei  -》 WenQuan Yi Micro Hei Regular
+sudo apt install ttf-wqy-microhei  
 ```
-
-![](/assets/Screenshot from 2017-09-15 22-12-41.png)
 
 #### 效果图片
 
