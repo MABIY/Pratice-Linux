@@ -38,6 +38,10 @@ sudo apt install gnome gnome-shell
 1. [Hide top bar ](https://extensions.gnome.org/extension/545/hide-top-bar/)
 2. [AlternateTab](https://extensions.gnome.org/extension/15/alternatetab/)
 
+#### 字体设置
+
+![](/assets/Screenshot from 2017-09-15 22-12-41.png)
+
 #### 效果图片
 
 ![](/assets/ubuntu_gnome.png)
