@@ -24,6 +24,7 @@
   * [ubuntu 固定ip](ubuntu-固定ip.md)
   * [git crlf\(win\)-lf\(unix\)](git_crlfwin-lfunix.md)
   * start at boot
+  * [timing\_task](timingtask.md)
 * [centos](centos.md)
   * [install minimize](install-minimize.md)
   * [开发用的软件搭建](开发用的软件搭建.md)
