@@ -40,6 +40,7 @@
   * [find commond](find-commond.md)
   * [mini-install](mini-install.md)
   * [change hostname](change-hostname.md)
+  * [iscsi configure](iscsi-configure.md)
 * [minimal\_install\_7](minimal_install.md)
 * [base\_knowledge](base_knowledge.md)
 * [linux hardware info](linux-hardware-info.md)
