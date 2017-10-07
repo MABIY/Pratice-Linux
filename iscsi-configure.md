@@ -7,21 +7,18 @@
 
 [root@localhost ~]# systemctl enable target;  systemctl start target;
 
-[root@localhost ~]# firewall-cmd --permanent --add-port=3260/tcp;firewall-cmd --reload 
-
+[root@localhost ~]# firewall-cmd --permanent --add-port=3260/tcp;firewall-cmd --reload
 ```
 
 ##### 2.lvm create  lv block
 
 ##### ![](/assets/Screenshot from 2017-10-07 23-54-20.png)![](/assets/Screenshot from 2017-10-07 23-58-32.png)
 
-##### 3. targetcli create target 
+##### 3. targetcli create target
 
 ![](/assets/Screenshot from 2017-10-08 00-04-02.png)
 
 #### iscsi clinet :
-
-
 
 ##### 1.connection iscsi target
 
@@ -56,5 +53,5 @@ c:InitiatorName=iqn.2016-05.com.example:desktop10
 mount -a
 ```
 
-
+when iscsi client have problem : see [websit](https://unix.stackexchange.com/questions/207534/iscsi-login-failed-with-error-24-could-not-log-in-to-all-portals)
 
