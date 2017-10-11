@@ -26,6 +26,7 @@
   * start at boot
   * [timing\_task](timingtask.md)
   * [ubuntu optimize](ubuntu-optimize.md)
+  * [如何在 Ubuntu 启用 BBR](ru-he-zai-ubuntu-qi-yong-bbr.md)
 * [centos](centos.md)
   * [install minimize](install-minimize.md)
   * [开发用的软件搭建](开发用的软件搭建.md)
