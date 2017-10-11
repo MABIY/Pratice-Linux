@@ -26,8 +26,7 @@ ping www.baidu.com --&gt;ok
 
 ```shell
 su root  // 切换root 用户
-vi /etc/sudoerss 
-
+vi /etc/sudoerss
 ```
 
 在root ALL=\(ALL:ALL\) ALL　行下　把你想要用sudo 权限的用户加入　格式如下：
@@ -51,7 +50,6 @@ IPADDR=192.168.3.70
 NETMASK=255.255.255.0
 GATEWAY=192.168.3.1
 DNS1=114.114.114.114
-  
 ```
 
 ```
@@ -93,7 +91,6 @@ $ sudo hostnamectl set-hostname <host-name>
 $ sudo hostnamectl --static set-hostname <host-name>
 
 注意，你不必重启机器以激活永久主机名修改。上面的命令会立即修改内核主机名。注销并重新登入后在命令行提示来观察新的静态主机名。
-
 ```
 
 ---
@@ -116,23 +113,31 @@ vim vim ~/.zshrc
 
 1. install on-my-zsh\(一种shell 的变种　操作方便\)
 
-  ```shell
-  yum install zsh
+   ```shell
+   yum install zsh
 
-  sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-  ```
+   sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+   ```
 
 2. 查看ip 地址　网关
 
-  ```shell
-  ip addr //ip 地址
-  ip route show // 网关
-  ```
-3.rsync 远程同步失败
+   ```shell
+   ip addr //ip 地址
+   ip route show // 网关
+   ```
+
+   3.rsync 远程同步失败
 
 ```shell
 yum -y install openssh-clients
+```
 
+6.bash-shell 补全包
+
+```shell
+sudo yum install epel-release
+yum install  bash-completion
+yum install  bash-completion-extras
 ```
 
 
