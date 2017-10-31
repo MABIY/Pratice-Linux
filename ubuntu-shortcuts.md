@@ -9,5 +9,14 @@
 
 ![](/assets/Screenshot from 2017-10-31 11-19-44.png)
 
-![](/assets/Screenshot from 2017-10-31 11-19-42.png)
+![](/assets/Screenshot from 2017-10-31 11-19-42.png)  
+
+
+#### intellij idea shortcuts change:
+
+* Next Method: Alt+k
+* Previous Method: Alt+J
+* ![](/assets/Screenshot from 2017-10-31 11-23-37.png)
+
+
 
