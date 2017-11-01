@@ -11,7 +11,7 @@
   * [centos7 自启动脚本](centos7_zi_qi_dong_ji_ben.md)
   * [linux issus](linux_issus.md)
   * [ubuntu 多jdk 版本设置默认版本](ubuntu_duo_jdk_ban_ben_she_zhi_mo_ren_ban_ben.md)
-  * gnome Desktop
+  * [gnome Desktop](gnome-desktop.md)
   * [常用软件安装](chang_yong_ruan_jian_an_zhuang.md)
   * [rsync](rsync.md)
   * [Common shortcut key](common_shortcut_key.md)
