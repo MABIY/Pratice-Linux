@@ -16,8 +16,9 @@
 
 * Next Method: Alt+k
 * Previous Method: Alt+J
+* Split Vertically: ctrl+shitf+s
 * ![](/assets/Screenshot from 2017-10-31 11-23-37.png)
-* Error Description:Ctrl+i
+* Error Description:alt+i
 * ![](/assets/Screenshot from 2017-10-31 11-25-27.png)
 
 
