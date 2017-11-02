@@ -44,7 +44,7 @@ sudo apt remove fcitx* && sudo apt autoremove
 sudo dpkg -i ~/Downloads/sogoupinyin*.deb; sudo apt -f install
 ```
 
-#### [fusuma](https://github.com/iberianpig/fusuma)
+#### [fusuma](https://github.com/iberianpig/fusuma)\(先笔记本才触目不全部支持\)
 
 
 
