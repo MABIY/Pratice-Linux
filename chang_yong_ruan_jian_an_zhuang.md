@@ -24,19 +24,27 @@
        sudo shutdown -r 0
 
 # Zathura PDF
-```shell
-sudo apt-get install zathura 
 
+```shell
+sudo apt-get install zathura
 ```
 
 # [2 Best Chinese PinYin Input Method in Ubuntu 16.04](http://ubuntuhandbook.org/index.php/2016/07/2-best-chinese-pinyin-im-ubuntu-16-04/)
+
 ## googlepinyin
+
 ```shell
 sudo apt install fcitx fcitx-googlepinyin fcitx-table-wbpy fcitx-pinyin fcitx-sunpinyin
 ```
 
 ## sougou
+
 ```shell
 sudo apt remove fcitx* && sudo apt autoremove
 sudo dpkg -i ~/Downloads/sogoupinyin*.deb; sudo apt -f install
 ```
+
+#### [fusuma](https://github.com/iberianpig/fusuma)
+
+
+
