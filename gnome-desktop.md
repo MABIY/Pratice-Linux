@@ -37,11 +37,12 @@ sudo apt install gnome gnome-shell
 
 1. [Hide top bar ](https://extensions.gnome.org/extension/545/hide-top-bar/)
 2. [AlternateTab](https://extensions.gnome.org/extension/15/alternatetab/)
+3. [TopIcons Plus](https://extensions.gnome.org/extension/1031/topicons/)
 
 #### 字体设置
 
 ```shell
-sudo apt install ttf-wqy-microhei  
+sudo apt install ttf-wqy-microhei
 ```
 
 #### 效果图片
