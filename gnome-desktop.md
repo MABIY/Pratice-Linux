@@ -39,6 +39,15 @@ sudo apt install gnome gnome-shell
 2. [AlternateTab](https://extensions.gnome.org/extension/15/alternatetab/)
 3. [TopIcons Plus](https://extensions.gnome.org/extension/1031/topicons/)
 
+#### sougou-input方法
+
+```shell
+vim /etc/profile
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+```
+
 #### 字体设置
 
 ```shell
