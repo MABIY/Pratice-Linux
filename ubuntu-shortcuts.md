@@ -19,6 +19,7 @@
 * Split Vertically: ctrl+shitf+s
 * close all : ctrl+shift+w
 * show in file: ctrl+w
+* Evaluate Expression:alt+c
 * ![](/assets/Screenshot from 2017-10-31 11-23-37.png)
 * Error Description:alt+i
 
