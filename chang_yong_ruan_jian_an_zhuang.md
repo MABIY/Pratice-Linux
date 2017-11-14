@@ -44,7 +44,16 @@ sudo apt remove fcitx* && sudo apt autoremove
 sudo dpkg -i ~/Downloads/sogoupinyin*.deb; sudo apt -f install
 ```
 
-#### [fusuma](https://github.com/iberianpig/fusuma)\(先笔记本才触目不全部支持\)
+#### [youtobe-Downloader](https://www.ubuntuupdates.org/ppa/getdeb_apps?dist=xenial)
+
+```shell
+wget -q -O - http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
+sudo sh -c 'echo "deb http://archive.getdeb.net/ubuntu xenial-getdeb apps" >> /etc/apt/sources.list.d/getdeb.list'
+sudo apt-get install youtube-dl
+sudo apt install -y ytd-gtk
+```
+
+#### 
 
 
 
