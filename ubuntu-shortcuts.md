@@ -14,16 +14,17 @@
 
 #### intellij idea shortcuts change:
 
-* Next Method: Alt+k
-* Previous Method: Alt+J
+* Next Method: Alt+j
+* Previous Method: Alt+k
 * Split Vertically: ctrl+shitf+s
 * close all : ctrl+shift+w
 * show in file: ctrl+w
 * Evaluate Expression:alt+c
 * Quick Evaluate Expression : alt+v
+* Error Description:alt+i
+* Close : ctrl+d
 * ![](/assets/Screenshot from 2017-11-13 16-14-07.png)
 * ![](/assets/Screenshot from 2017-10-31 11-23-37.png)
-* Error Description:alt+i
-
+* 
 
 
