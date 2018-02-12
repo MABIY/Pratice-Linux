@@ -11,7 +11,7 @@ netmask 255.255.255.0
 dns-nameservers 114.114.114.114 8.8.8.8
 ```
 
-setp 2: 清空 enp4s0的配置 
+setp 2: Ino longer need this configuration and wish to purge all IP configuration from an interface
 
 ```shell
 sudo ip addr flush enp4s0
