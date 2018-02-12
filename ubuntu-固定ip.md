@@ -8,10 +8,10 @@ iface enp4s0 inet static
 address 172.20.10.210
 gateway 172.20.10.1
 netmask 255.255.255.0
-dns-nameservers 114.114.114.114 8.8.8.8 
+dns-nameservers 114.114.114.114 8.8.8.8
 ```
 
-setp 2:
+setp 2: 清空 enp4s0的配置 
 
 ```shell
 sudo ip addr flush enp4s0
