@@ -55,5 +55,17 @@ sudo apt install -y ytd-gtk
 
 #### [ClipGrab](https://clipgrab.org/donate)
 
+### [grive](https://www.fossmint.com/grive2-google-drive-client-for-linux/)
+
+```shell
+$ sudo add-apt-repository ppa:nilarimogard/webupd8
+$ sudo apt-get update
+$ sudo apt-get install grive
+
+$ mkdir -p ~/grive
+$ cd ~/grive
+$ grive -a
+```
+
 
 
