@@ -67,5 +67,9 @@ $ cd ~/grive
 $ grive -a
 ```
 
+# [Shadowsocks](https://blog.huihut.com/2017/08/25/LinuxInstallConfigShadowsocksClient/)
+
+     需要在network 先设置local\_address local\_port 才能启动成功
+
 
 
