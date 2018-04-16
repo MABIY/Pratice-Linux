@@ -11,28 +11,11 @@ netmask 255.255.255.0
 dns-nameservers 114.114.114.114 8.8.8.8
 ```
 
-setp 2: Ino longer need this configuration and wish to purge all IP configuration from an interface
+setp 2: 
 
 ```shell
-sudo ip addr flush enp4s0
-```
+sudo ifdown enp4s0 && sudo ifup enp4s0
 
-step 3:重启 networking 服务加载dns 配置
-
-```shell
-sudo systemctl restart networking.service
-
-sudo resolvconf -u
-```
-
-setp 4: 配置DNS
-
-```shell
-➜  ~ sudo vim /etc/resolvconf/resolv.conf.d/base 
-
-nameserver 8.8.8.8
-
-➜  ~ sudo resolvconf -u  #读取dns 配置
 ```
 
 
