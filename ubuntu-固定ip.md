@@ -16,7 +16,7 @@ dns-domain ad.vipmro.com
 setp 2:
 
 ```shell
-sudo ip addr flush enp7s0
+sudo ip addr flush enp0s3
 sudo systemctl restart networking.service
 ```
 
