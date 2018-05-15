@@ -38,6 +38,7 @@ sudo apt install gnome gnome-shell
 1. [Hide top bar ](https://extensions.gnome.org/extension/545/hide-top-bar/)
 2. [AlternateTab](https://extensions.gnome.org/extension/15/alternatetab/)
 3. [TopIcons Plus](https://extensions.gnome.org/extension/1031/topicons/)
+4. [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
 
 #### sougou-input方法
 
