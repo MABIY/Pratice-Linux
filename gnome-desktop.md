@@ -39,6 +39,7 @@ sudo apt install gnome gnome-shell
 2. [AlternateTab](https://extensions.gnome.org/extension/15/alternatetab/)
 3. [TopIcons Plus](https://extensions.gnome.org/extension/1031/topicons/)
 4. [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+5. [Workspace Grid](https://extensions.gnome.org/extension/484/workspace-grid/)
 
 #### sougou-input方法
 
